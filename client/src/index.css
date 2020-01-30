@@ -56,12 +56,42 @@ body {
 .save-button {
   position: absolute;
   top: 25px;
+  right: 225px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  width: 75px;
+}
+.save-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.edit-button {
+  position: absolute;
+  top: 25px;
+  right: 125px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  width: 75px;
+
+}
+.edit-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.delete-button {
+  position: absolute;
+  top: 25px;
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  width: 75px;
 }
-.save-button:hover {
+.delete-button:hover {
   background-color: green;
   color: white;
 }
@@ -69,9 +99,35 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  border: 1px solid black;
+  margin-right: 10px;
 }
+
+.add-movie-button {
+  padding: 5px 10px;
+  background-color: lightskyblue;
+  border: 1px solid black;
+  }
 
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.add-movie {
+  display: flex;
+  margin-left: 180px;
+}
+
+.add-movie-title{
+  margin-left: 650px;
+}
+
+.edit-movie {
+  display: flex;
+  margin-left: 180px;
+}
+
+.edit-movie-title{
+  margin-left: 650px;
 }
